@@ -1,7 +1,7 @@
-5865bd60fa219a502cc395984df8afed *DESCRIPTION
+92371406eeb97d77a7d3d1af215fbfca *DESCRIPTION
 bde645e9be0abbb8eb359986269573d7 *LICENSE
 d9eb3c04d1c9655cc589af9d413bafff *NAMESPACE
-4d28af3a81c05d82196bbab78d623477 *NEWS.md
+58714cde4f0156de29499d043f9ae3be *NEWS.md
 6daee5ffafd76d908d32afdaa16017a9 *R/limitations.R
 2ab0c0d40f672a10537be8de759d46f9 *R/parquet-file.R
 9f8f43d4b1accbd7bf5b89ab10d76863 *R/parquet-plan.R
@@ -11,7 +11,7 @@ b5d8bc46744e596c6f69cb021448b139 *R/parquet.R
 c1195a1d3af7cd8021b650b20e964a5c *R/qio-package.R
 0e4eda4e5cae72f19753521d97e35b6d *R/types.R
 321886f13fc06efdd1b21da35e8c5013 *R/zzz.R
-fa188857f6266f3103bb08bac0eda76b *README.md
+712bd285055c75ebc5d7ced6242e2c9e *README.md
 4f9282aa5b29678d413a827f3b71e18c *inst/COPYRIGHTS
 a67be7ee05294fa1b01376f5f7ad7386 *inst/extdata/bloom_sorted.parquet
 b6a8718d7a3057d714659b5b7556e34e *man/bloom_filter_may_contain.Rd
@@ -66,7 +66,7 @@ b2a30abc60bfd1858042ed4108a1e3fb *src/carquet/encoding/byte_stream_split.c
 937d6295cc3f05744bef2d8bca434290 *src/carquet/encoding/delta.c
 251fd898e59a508c876241954e65afc9 *src/carquet/encoding/delta_length.c
 45ce674d2c5278544c6f12e87cdfa062 *src/carquet/encoding/delta_strings.c
-2571caec7d492c2e609928d5da2d7bb5 *src/carquet/encoding/dictionary.c
+72d9268fe3041559ad5173f39220e91a *src/carquet/encoding/dictionary.c
 72998eaae4d323a3547d16d3596a826e *src/carquet/encoding/plain.c
 364d2b78e5740029eb97ac7d697044d0 *src/carquet/encoding/plain.h
 cdfdb32377627f7f51ba5b4b33578201 *src/carquet/encoding/rle.c
@@ -106,7 +106,7 @@ f4ef55b11855705473fe866bfbe0eef1 *src/carquet/thrift/thrift_encode.c
 5c216cff97449fce1fd9dfa4f8f61b47 *src/carquet/util/xxhash.c
 bd8e3095a84eb0078c41fc79861ffb05 *src/carquet/writer/arrow_schema.c
 9535335c2ce912ab61ed503f1e63e40d *src/carquet/writer/arrow_schema.h
-c597c75f65ae84375cab16445c5c3c15 *src/carquet/writer/column_writer.c
+576e3f517bad812343069ca98d0113d8 *src/carquet/writer/column_writer.c
 875a6fc0770d1d1d52def48157599afa *src/carquet/writer/file_writer.c
 80debc0b722eec8dff6bd3b19feaad1b *src/carquet/writer/page_writer.c
 2c321ac7b8296f8f30ca087ed80274a3 *src/carquet/writer/row_group_writer.c
@@ -114,7 +114,7 @@ c597c75f65ae84375cab16445c5c3c15 *src/carquet/writer/column_writer.c
 ffe80f624d4c46f04ca70f1eda4e3876 *src/lz4/lz4.c
 12ebc23f2dd08a9e888b50f1c5dffaf5 *src/lz4/lz4.h
 63d6e8e4aa032971128e470b01da843c *src/qio.c
-1d39a95beda67f3044b25701674ee1e2 *src/qio_file.c
+ae7b53add9991ba84b6bcde46cf3f752 *src/qio_file.c
 8675018aaee62d485f20106f839017c0 *src/qio_file.h
 98390d4f96ee66f908a45f8857823151 *src/qio_path.c
 c696c2c14cc583a944f3f84b4a69651a *src/qio_path.h
@@ -234,7 +234,7 @@ c2ea05b888cd8d110f86d88f7d89d7a4 *tests/testthat/parquet/uuid.parquet
 8876696dbec89a9763aeb209485ebb2a *tests/testthat/test-parquet-file.R
 4a003cf41204ed2d3ba1b3d7633eb67e *tests/testthat/test-parquet-plan.R
 dab85550fe5b8db49065cfd74bd0c271 *tests/testthat/test-parquet-schema.R
-306365649bc59cb9e6ca1b107243aa73 *tests/testthat/test-qio.R
+099798c53c55aa3f66c9d6766219128c *tests/testthat/test-qio.R
 4db17721abd3fef0a6bfb714bd620d31 *tests/testthat/test-url.R
 2c1de9df763f7e8e57069703a07a2e8d *tools/bitunpack-differential.c
 b87dc3f89264ad51f04f974f2f42782d *tools/check-actions.sh

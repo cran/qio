@@ -1,6 +1,6 @@
 Package: qio
 Title: Read and Write 'Apache Parquet' Files
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(
     person("Pedro", "Baltazar", email = "pedrobtz@gmail.com",
            role = c("aut", "cre", "cph")),
@@ -25,10 +25,10 @@ Suggests: bit64, dplyr, hms, testthat (>= 3.0.0), withr
 Config/testthat/edition: 3
 Config/Needs/website: knitr, rmarkdown
 NeedsCompilation: yes
-Packaged: 2026-09-03 12:13:12 UTC; pbtz
+Packaged: 2026-09-29 08:14:08 UTC; pbtz
 Author: Pedro Baltazar [aut, cre, cph],
   Johan HG Natter [aut, cph] (carquet source code (MIT license)),
   vctrs authors [ctb, cph] (qio_s3_register() helper (MIT license))
 Maintainer: Pedro Baltazar <pedrobtz@gmail.com>
 Repository: CRAN
-Date/Publication: 2026-09-28 13:40:02 UTC
+Date/Publication: 2026-09-29 14:20:17 UTC
